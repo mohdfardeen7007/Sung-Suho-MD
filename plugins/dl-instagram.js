@@ -76,17 +76,7 @@ lite({
             `❤️ *Likes*: ${like}\n` +
             `💬 *Comments*: ${comment}\n` +
             `📝 *Caption*: ${caption || "No caption"}\n\n` +
-            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sᴜɴɢ`,
-          contextInfo: {
-            mentionedJid: [m.sender],
-            forwardingScore: 999,
-            isForwarded: true,
-            forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363402507750390@newsletter',
-              newsletterName: '『 sᴜʜᴏ ᴍᴅ 』',
-              serverMessageId: 143
-            }
-          }
+            `> © 𝐏ⱺω𝖾𝗋𝖾ᑯ 𝐁𝗒 𝐅𝖾ᥣ𝗂𝗑`,
         }, { quoted: mek });
       }
     }
