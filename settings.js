@@ -12,7 +12,7 @@ module.exports = {
     PREFIX: process.env.PREFIX || ".",
     // add your prefix for bot
 
-    BOT_NAME: process.env.BOT_NAME || "sᴜɴɢ-sᴜʜᴏ-ᴍᴅ",
+    BOT_NAME: process.env.BOT_NAME || "𝐅𝖾ᥣ𝗂𝗑",
     // add bot name here for menu
 
     MODE: process.env.MODE || "public",
@@ -24,16 +24,16 @@ module.exports = {
 
     LINK_ACTION: "kick", // "kick", "mute", or "none"
 
-    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
     // make true or false status auto seen
 
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 😆*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*𝐅𝖾ᥣ𝗂𝗑 𝐒ρ𝖾𝖾ᑯ*",
     // set the auto reply message on status reply  
 
     WELCOME: process.env.WELCOME || "true",
@@ -42,7 +42,7 @@ module.exports = {
     ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
     // make true to know who dismiss or promoted a member in group
 
-    ANTI_LINK: process.env.ANTI_LINK || "true",
+    ANTI_LINK: process.env.ANTI_LINK || "false",
     // make anti link true,false for groups 
 
     MENTION_REPLY: process.env.MENTION_REPLY || "false",
@@ -57,14 +57,14 @@ module.exports = {
     LIVE_MSG: process.env.LIVE_MSG || 
 `> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ
 
-ᴋᴇᴇᴘ ᴜsɪɴɢ ✦sᴜɴɢ sᴜʜᴏ✦ ғʀᴏᴍ ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ ɪɴᴄ⚡
+ᴋᴇᴇᴘ ᴜsɪɴɢ ✦𝐅𝖾ᥣ𝗂𝗑 𝐒ρ𝖾𝖾ᑯ✦⚡
 
 *© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ*
 
-> ɢɪᴛʜᴜʙ : github.com/NaCkS-ai/SungSu-ho-MD`,
+> ɢɪᴛʜᴜʙ :`,
     // add alive msg here 
 
-    STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
+    STICKER_NAME: process.env.STICKER_NAME || "𝐅𝖾ᥣ𝗂𝗑 𝐒ρ𝖾𝖾ᑯ",
     // type sticker pack name 
 
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
@@ -76,13 +76,13 @@ module.exports = {
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
     // automatic delete links without removing member 
 
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "27813374457",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "918127875972",
     // add your bot owner number
 
-    OWNER_NAME: process.env.OWNER_NAME || "ᴍʀ sᴜɴɢ",
+    OWNER_NAME: process.env.OWNER_NAME || "𝐅𝖾ᥣ𝗂𝗑",
     // add bot owner name
 
-    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sᴜɴɢ sᴜʜᴏ*",
+    DESCRIPTION: process.env.DESCRIPTION || "*© 𝐅𝖾ᥣ𝗂𝗑 𝐒ρ𝖾𝖾ᑯ*",
     // add bot owner description  
 
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
@@ -106,7 +106,7 @@ module.exports = {
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     // make true for always online 
 
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "public",
     // make false if want private mode
 
     AUTO_TYPING: process.env.AUTO_TYPING || "false",
@@ -115,7 +115,7 @@ module.exports = {
     READ_CMD: process.env.READ_CMD || "false",
     // true if want mark commands as read  
 
-    DEV: process.env.DEV || "27813374457",
+    DEV: process.env.DEV || "918127875972",
     // replace with your whatsapp number  
 
     ANTI_VV: process.env.ANTI_VV || "true",
