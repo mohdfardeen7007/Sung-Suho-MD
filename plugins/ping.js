@@ -32,9 +32,21 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
         const end = new Date().getTime();
         const responseTime = (end - start) / 1000;
 
-        const text = `> *𝐅𝖾ᥣ𝗂𝗑 𝐒ρ𝖾𝖾ᑯ: ${responseTime.toFixed(2)}m/s ${reactionEmoji}*`;
+        const text = `> *sᴜɴɢ sᴘᴇᴇᴅ: ${responseTime.toFixed(2)}m/s ${reactionEmoji}*`;
 
-        , { quoted: mek });
+        await conn.sendMessage(from, {
+            text,
+            contextInfo: {
+                mentionedJid: [sender],
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363402507750390@newsletter',
+                    newsletterName: "ᴍʀ sᴜɴɢ",
+                    serverMessageId: 143
+                }
+            }
+        }, { quoted: mek });
 
     } catch (e) {
         console.error("Error in ping command:", e);
@@ -43,4 +55,3 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
 });
 
 // created by malvin king
-
